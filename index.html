@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Friendship Form</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="D:\Tanay Paul\Friendship Form\logo.jpg">
+        <style>
+            body {
+                background-color: bisque;
+            }
+            
+            .mainheader {
+                font-size: 80px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(17, 0, 255);
+                font-weight: bolder;
+                text-align: center;
+            }
+
+            .preform {
+                text-align: center;
+                font-size: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(192, 20, 20);
+                padding-top: 60px;
+            }
+            .noy {font-size: 140%;}
+            .von1 {font-size: 50%;text-align: center;font-family: arial;border-radius: 30px;letter-spacing: 2px;padding: 10px;margin-bottom: 20px;background-color: rgb(184, 184, 184);color: rgb(0, 0, 0);}
+            .nobf {font-size: 140%;}
+            .von2 {font-size: 50%;text-align: center;font-family: arial;border-radius: 30px;letter-spacing: 2px;padding: 10px;margin-bottom: 20px;background-color: rgb(184, 184, 184);color: rgb(0, 0, 0);}
+            .noyl {font-size: 140%;}
+            .vol1 {font-size: 50%;text-align: center;font-family: arial;border-radius: 30px;letter-spacing: 2px;padding: 10px;margin-bottom: 20px;background-color: rgb(184, 184, 184);color: rgb(0, 0, 0);}
+            .hytayltybf {font-size: 140%;}
+            .Message1 {font-size: 50%;text-align: center;font-family: arial;border-radius: 30px;letter-spacing: 2px;padding: 10px;margin-bottom: 20px;background-color: rgb(184, 184, 184);color: rgb(0, 0, 0);}
+            .Submit {font-size: 100%;width: 200px;padding: 10px;border-radius: 30px;background-color: black;color: white;}
+            .Submit:active {background-color: rgb(75, 75, 75);color: white;transition: .2s;}
+        </style>
+    </head>
+    <body>
+        <h1 class="mainheader">Friendship Form</h1>
+        <p class="preform">
+            First we need some informations of yours and your best friend... Then we will ask some questions in the next page of this form... Read and Write down the answers of these questions... Best of Luck...
+            
+        </p>
+
+        <form class="main-form" align="center" netlify>
+            <label class="noy" for="name">Your Name:- <br><input type="text" class="von1" name="Name-of-your" placeholder="Type Your Full Name"></label><br>
+            <label class="nobf" for="name">Name of your Best Friend:- <br><input type="text" class="von2" name="Name-of-BF" placeholder="Full Name of Your Best Friend"></label><br>
+            <label class="noyl" for="name">Name of your Crush or Love:- <br><input type="text" class="vol1" name="Love or Crush" placeholder="Name of your Crush or Love"></label><br>
+            <label class="hytayltybf" for="message">Have you told your friend about your love? (write Y for Yes, N for No) --- <br><input class="Message1" name="Message" placeholder="Y or N" cols="20" rows="6"></label><br>
+            <input type="submit" class="Submit" value="NEXT" onclick="confirmation()">
+
+            <script>
+                function confirmation() {
+                    alert('Are you sure to confirm this statements???')
+                }
+            </script>
+        </form> 
+    </body>
+</html>
